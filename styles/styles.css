@@ -180,3 +180,113 @@ background-size: 100% auto;
 background-repeat: no-repeat;
 }
 
+.inner-header-title {
+font-family: "PT Sans", sans-serif;
+font-size: 60px;
+line-height: 78px;
+font-weight: 700;
+}
+
+.breadcrumbs-link {
+font-family: "PT Sans", sans-serif;
+font-size: 16px;
+line-height: 21px;
+font-weight: 400;
+}
+
+.infrastructure-filter-title {
+font-family: "PT Sans", sans-serif;
+font-size: 20px;
+line-height: 24px;
+font-weight: 700;
+}
+
+.infrastructure-filter-item {
+font-family: "PT Sans", sans-serif;
+font-size: 18px;
+line-height: 23px;
+font-weight: 400;
+}
+
+.type-filter-item {
+font-family: "PT Sans", sans-serif;
+font-size: 18px;
+line-height: 23px;
+font-weight: 400;
+}
+
+.button-apply {
+font-family: "PT Sans", sans-serif;
+font-size: 16px;
+line-height: 20px;
+font-weight: 400;
+color: #ffffff;
+background-color: #82B3D3;
+}
+
+.button-reset {
+font-family: "PT Sans", sans-serif;
+font-size: 16px;
+line-height: 20px;
+font-weight: 400;
+color: #ffffff;
+}
+
+.amount {
+font-family: "PT Sans", sans-serif;
+font-size: 30x;
+line-height: 36px;
+font-weight: 700;
+color: #000000;
+background-color: #ffffff;
+}
+
+.hotels-card-title {
+font-family: "PT Sans", sans-serif;
+font-size: 24x;
+line-height: 28px;
+font-weight: 700;
+color: #000000;
+background-color: #ffffff;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+.hotels-card-price {
+font-family: "PT Sans", sans-serif;
+font-size: 18x;
+line-height: 21px;
+font-weight: 400;
+color: #000000;
+background-color: #ffffff;
+}
+
+.about-hotels-card-button {
+font-family: "PT Sans", sans-serif;
+font-size: 16x;
+line-height: 20px;
+font-weight: 700;
+color: #ffffff;
+background-color: #756157;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+.favorites-card-button {
+font-family: "PT Sans", sans-serif;
+font-size: 16x;
+line-height: 20px;
+font-weight: 700;
+color: #ffffff;
+background-color: #82B3D3;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+.rating {
+font-family: "PT Sans", sans-serif;
+font-size: 16x;
+line-height: 20px;
+font-weight: 400;
+color: #000000;
+}
