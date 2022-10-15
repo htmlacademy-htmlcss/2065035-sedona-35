@@ -29,12 +29,12 @@
         <ul class="navigation-list">
           <li class="navigation-item">
             <a class="navigation-link" href="#">
-              <span class="search"> Поиск </span>
+              <span class="visually-hidden"> Поиск </span>
             </a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">
-              <span class="likes"> Избранное </span>
+              <span class="visually-hidden"> Избранное </span>
             </a>
           </li>
           <li class="navigation-item">
@@ -198,32 +198,31 @@
     </main>
 
     <footer class="page-footer">
-      <div>
-        <h2>Подпишитесь на рассылку</h2>
-        <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
-        <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-        <input class="field"  placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
-        <button class="button newsletter-button" type="submit">
-        <span class="visually-hidden">Подписаться</span>
-        </button>
-        </form>
-      </div>
+      <section class="subscription">
+        <h2 class="footer-caption">Подпишитесь на рассылку</h2>
+        <p class="footer-paragraph">Только полезная информация и никакого спама, честное бойскаутское!</p>
+          <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+           <input class="field"  placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
+            <button class="button newsletter-button" type="submit">
+              <span>Подписаться</span>
+            </button>
+         </form>
+      </section>
+
       <div class="footer-social-network">
-        <ul class="social-network-list">
+        <ul class="social">
           <li class="navigation-item">
            <a class="navigation-link" href="">
-             <span class="vk"> Вконтакте </span>
+             <span class="visually-hidden"> Вконтакте </span>
            </a>
         </li>
         <li class="navigation-item">
           <a class="navigation-link" href="">
-            <span class="telegram"> Телеграм </span>
+            <span class="visually-hidden"> Телеграм </span>
           </a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link" href="">
-            <span class="youtube"> Ютьюб </span>
-          </a>
+          <a class="navigation-link" href=""> Ютьюб </a>
         </li>
         </ul>
       </div>
