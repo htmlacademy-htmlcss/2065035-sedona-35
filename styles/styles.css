@@ -150,8 +150,7 @@ body {
   background-color: #82B3D3;
 }
 
-.advantages-item-hotels {
-  display: block;
+.advantages-item {
   width: 400px;
   height: 384px;
   color: #000000;
@@ -159,42 +158,17 @@ body {
 }
 
 .advantages-item-food {
-  display: block;
-  width: 400px;
-  height: 384px;
-  color: #000000;
-}
 
-.advantages-item-gifts {
-  display: block;
   width: 400px;
   height: 384px;
   color: #000000;
-  background-color: rgba(131, 179, 211, 0.12);
-}
-
-.advantages-item-square {
-  display: block;
-  width: 400px;
-  height: 384px;
-  color: #000000;
-  background-color: rgba(131, 179, 211, 0.12)
 }
 
 .advantages-item-road {
-  display: block;
   width: 400px;
   height: 384px;
   color: #000000;
   background-color: rgba(131, 179, 211, 0.2);
-}
-
-.advantages-item-tourists {
-  display: block;
-  width: 400px;
-  height: 384px;
-  color: #000000;
-  background-color: rgba(131, 179, 211, 0.12)
 }
 
 .hottel {
@@ -253,8 +227,16 @@ body {
   text-align: center;
 }
 
+.footer-information {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 .inner-header {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   color: #ffffff;
   background-image: url("../images/catalog-background.jpg");
   background-size: 100% auto;
@@ -282,7 +264,7 @@ body {
   font-weight: 400;
 }
 
-.list-of-hotels {
+.hotels-filter {
   display: flex;
 }
 
@@ -342,45 +324,25 @@ body {
 .hotels-card {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   width: 1200px;
   height: 896px;
-  margin: 0 auto;
-  padding: 0;
   text-align: center;
   list-style-type: none;
 }
 
-.first-hotel-card {
-  display: block;
-  width: 300px;
-  height: 212px;
+.hotel-card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 340px;
+  height: 438px;
   margin: 10px;
   padding: 10px;
 }
 
-.second-hotel-card{
-  display: block;
-  width: 300px;
-  height: 212px;
-  margin: 10px;
-  padding: 10px;
-}
 
-.third-hotel-card{
-  display: block;
-  width: 300px;
-  height: 212px;
-  margin: 10px;
-  padding: 10px;
-}
-
-.fourth-hotel-card {
-  display: block;
-  width: 300px;
-  height: 212px;
-  margin: 10px;
-  padding: 10px;
-}
 
 .hotels-card-title {
   font-size: 24x;
@@ -430,3 +392,4 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
+
