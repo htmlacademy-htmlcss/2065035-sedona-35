@@ -109,7 +109,6 @@ body {
 .main-text-sedona {
   display: block;
   width: 620px;
-  height: 72px;
   margin-left: 290px;
   margin-top: 69px;
   margin-right: 290px;
@@ -122,7 +121,6 @@ body {
 .main-text-advantages{
   display: block;
   width: 651px;
-  height: 26px;
   margin-left: 275px;
   margin-top: 25px;
   margin-right: 274px;
@@ -238,6 +236,7 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
   color: #ffffff;
+  font-weight: 700;
   background-image: url("../images/catalog-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -246,12 +245,10 @@ body {
 .inner-header-title {
   display: inline;
   width: 494.4px;
-  height: 78px;
   margin-left: 70px;
   margin-top: 35px;
   font-size: 60px;
   line-height: 78px;
-  font-weight: 700;
 }
 
 .breadcrumbs {
@@ -272,7 +269,6 @@ body {
 .infrastructure-filter-title {
   font-size: 20px;
   line-height: 24px;
-  font-weight: 700;
 }
 
 .infrastructure-filter-item {
@@ -302,7 +298,7 @@ body {
   color: #ffffff;
 }
 
-.amount {
+.amount-title {
   font-size: 30x;
   line-height: 36px;
   font-weight: 700;
@@ -310,7 +306,7 @@ body {
   background-color: #ffffff;
 }
 
-.searching results {
+.searching-results {
   display: flex;
   flex-wrap: wrap;
   width: 1200x;
@@ -319,6 +315,18 @@ body {
   padding: 0;
   text-align: center;
   list-style-type: none;
+}
+.head-searching {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  list-style-type: none;
+}
+
+.select-control {
+  width: 242px;
+  height: 48px;
 }
 
 .hotels-card {
@@ -338,8 +346,6 @@ body {
   flex-direction: column;
   width: 340px;
   height: 438px;
-  margin: 10px;
-  padding: 10px;
 }
 
 
